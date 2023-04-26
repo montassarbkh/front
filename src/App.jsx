@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './component/Header'
 import Copyright from './component/Copyright'
+import Nav from './component/Nav'
+//import Menu from './component/Menu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,8 @@ function App() {
   return (
     <>
       <Header/>
+      <Nav/>
+      
       <Copyright/>
       
         
